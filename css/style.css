@@ -1,0 +1,104 @@
+.titulosecundario {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #731D2C ;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #731D2C ;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 20px;
+    margin-left: 50px;
+    height: 50px;
+    background-color: #122E40;
+    flex: 1;
+    transition: .3s all ease;
+    text-align: justify center;
+    -webkit-text-fill-color: #D9CEC5;
+}
+
+.card:hover{
+    flex: 2;
+    background-color: #00446a;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+.logodeliceo {
+    width: 10px;
+    height: 20px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+
+}
+
+.parrafoobjetivo {
+    margin-left: 50px;
+    margin-right: 900px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.parrafomision {
+    margin-left: 50px;
+    margin-right: 900px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.parrafovision {
+    margin-left: 50px;
+    margin-right: 900px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.parrafohistoria {
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 50px;
+    position: fixed;
+    top:  300px;
+}
+.titulos {
+    margin-left: 50px;
+    margin-right: 900px;
+    padding-right: 5px;
+    text-align: justify;
+    text-shadow: 2px 2px 5px #f18252 ;
+}
+
+.descripcion{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: #000f8f;
+    box-shadow: 10px 10px #a2a2a2 ;
+}
+
+.titulohistoria{
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 50px;
+    position: fixed;
+    top:  250px;
+    text-shadow: 2px 2px 5px #f18252 ;
+}
+
+/* investigar @media */
