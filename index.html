@@ -1,99 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liceo de Artes y Oficios</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img\logo-de-liceo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes-videos/Logo de liceo_png.ico" type="image/x-icon">
+
 </head>
 
 <body>
-    <div class="logodeliceo">
-        <img src="img\Logo-revistadigital.png" alt="">
-    </div>
 
-    <div class="menu">
-        <div class="card"><a href="Secciones/carrera.html" target="_self">Carreras, cursos y bachillerato</a></p>
-        </div>
-        <div class="card">
-            <li><a href="Secciones\eventos.html" target="_self">Eventos</a>
-        </div>
-        <div class="card">
-            <li><a href="#" target="_self">Nosotros</a>
-        </div>
-        <div class="card">
-            <li><a href="#" target="_self"> Contactanos</a>
+    <!-- Pantalla de carga -->
+    <div id="loader">
+        <div class="dots-loader">
+            <span></span><span></span><span></span>
         </div>
     </div>
 
-    <div class="descripcion">
-        <p>Es una institución educativa que imparte bachillerato general, carreras cortas, especialidades y cursos
-            intensivos diversos.
-            Con más de 35 años de experiencia. ¡Por la superación humana!</p>
-    </div>
+    <script>
+        // Oculta el loader y muestra el contenido cuando se carga la página
+        window.addEventListener("load", function () {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        });
+    </script>
 
-    <div class="titulos">
-        <h2>Misión</h2>
-    </div>
-
-    <div class="parrafomision">
-        <p>Ofrecer servicios educativos y capacitación a jóvenes y adultos de escasos recursos; con el fin de
-            desarrollar en ellos aptitudes, actitudes, valores y principios que les permitan un desempeño humano y
-            profesional exitoso.
-    </div>
-
-    <div class="titulos">
-        <h2>Visión</h2>
-    </div>
-
-    <div class="parrafovision">
-        <p>Ser una institución líder, con elevado compromiso social y académico que integre, en un corto plazo, al
-            sector productivo a personas con calidad humana y competencia en las normas de calidad vigentes.</p>
-    </div>
-
-    <div class="titulos">
-        <h2>Objetivos</h2>
-    </div>
-
-    <div class="parrafoobjetivo">
-        <ul>
-            <li>Ayudar a nuestros egresados a obtener un empleo.</li>
-            <li>Mejorar su empleo actual.</li>
-            <li>Emprender un negocio.</li>
-            <li>Mejorar su negocio.</li>
-            <li>Ingresar a nivel superior.</li>
+    <header>
+        <div class="logo">
+            <img src="imagenes-videos/Logo-Color-Horizontal.png" alt="">
+        </div>
+        <nav>
             <ul>
-    </div>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="programas.html">Cursos, carreras y bachillerato</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </div>
+    <main>
+        <div class="video-portada">
+            <video src="imagenes-videos\video-portada (2).mp4" width="1200" height="auto" controls autoplay muted loop>
+            </video>
+        </div>
 
-    <div class="titulohistoria">
-        <h1>Nuestra historia</h1>
-    </div>
+        <section id="inicio">
+            <h2>¡Por la superación humana!</h2>
+            <p>El Liceo de Artes y Oficios es una institución educativa con origen en 1985, dedicada a ofrecer servicios
+                educativos y capacitación a jóvenes y adultos. Nuestra misión es desarrollar aptitudes, actitudes,
+                valores y principios que les permitan un desempeño humano y profesional exitoso.</p>
+            <p>Con más de 30 años de servicio, el Liceo de Artes y Oficios imparte bachillerato, carreras técnicas y
+                cursos intensivos, brindando las herramientas necesarias para el crecimiento personal y laboral de
+                nuestros estudiantes.</p>
+        </section>
 
+        <section id="historia">
+            <h2>Nuestra Historia</h2>
+            <p>Liceo de Artes y Oficios es una institución educativa que tiene su origen en 1985 en Xalapa, Veracruz. Al
+                principio era un Centro de capacitación familiar para colaboradores de Grupo Chedraui y a partir de 1987
+                incorporó una Escuela de Artes y Oficios para todo público, ya en instalaciones propias.</p>
+            <p>En 1989 se establecieron dos edificios más en las ciudades de Veracruz-Puerto y Villahermosa, Tab.</p>
+            <p>En 1998 incorporamos el Bachillerato Chedraui como una opción más de crecimiento personal y laboral de la
+                comunidad xalapeña y en los años de 2004 y 2012 Veracruz y Villahermosa, respectivamente, también
+                pudieron ofrecer el bachillerato bajo los nombres de Chedraui Veracruz y Chedraui Villahermosa.</p>
+            <p>En 2008, se conforma la Asociación Civil Liceo de Artes y Oficios dándole a las escuelas Chedraui un
+                nuevo impulso, aprovechando la experiencia alcanzada hasta el momento. La misión es Ofrecer servicios
+                educativos y capacitación a jóvenes y adultos de escasos recursos; con el fin de desarrollar en ellos
+                aptitudes, actitudes, valores y principios que les permitan un desempeño humano y profesional exitoso.
+            </p>
+            <p>Actualmente, el Liceo de Artes y Oficios, con sus más de 30 años de servicio es la institución educativa
+                por excelencia. Imparte bachillerato, carreras técnicas y cursos intensivos diversos que brindan a los
+                alumnos las herramientas necesarias para que estén mejor preparados para continuar con estudios
+                universitarios, encontrar un nuevo empleo, mejorar el que ya tienen, o bien abrir un negocio propio y
+                con esto tener un mejor nivel de vida.</p>
+        </section>
+        <div class="antoniochedraui">
+            <img src="imagenes-videos\antoniochedraui.jpg" alt=" Antonio Chedraui Caram" height="300px" width="500px">
+        </div>
 
+        <section id="noticias">
+            <h3>Noticias Recientes</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/liceochedrauivillahermosa/?locale=es_LA"
+                        target="_blank">Próximamente: Información
+                        sobre nuevas convocatorias. </a></li>
+                <li><a href="eventos.html">Mantente al tanto de los eventos y actividades del Liceo.</a></li>
+            </ul>
+        </section>
+    </main>
 
-    <div class="parrafohistoria">
-        <p>Liceo de Artes y Oficios es una institución educativa que tiene su origen en 1985 en Xalapa, Veracruz. Al
-            principio era un Centro de capacitación familiar para colaboradores de Grupo Chedraui y a partir de 1987
-            incorporó una Escuela de Artes y Oficios para todo público, ya en instalaciones propias
-            En 1989 se establecieron dos edificios más en las ciudades de Veracruz-Puerto y Villahermosa, Tab.
-            En 1998 incorporamos el Bachillerato Chedraui como una opción más de crecimiento personal y laboral de la
-            comunidad xalapeña y en los años de 2004 y 2012 Veracruz y Villahermosa, respectivamente, también pudieron
-            ofrecer el bachillerato bajo los nombres de Chedraui Veracruz y Chedraui Villahermosa.
-            En 2008, se conforma la Asociación Civil Liceo de Artes y Oficios dándole a las escuelas Chedraui un nuevo
-            impulso, aprovechando la experiencia alcanzada hasta el momento. La misión es Ofrecer servicios educativos y
-            capacitación a jóvenes y adultos de escasos recursos; con el fin de desarrollar en ellos aptitudes,
-            actitudes, valores y principios que les permitan un desempeño humano y profesional exitoso.
-            Actualmente, el Liceo de Artes y Oficios, con sus más de 35 años de servicio es la institución educativa por
-            excelencia. Imparte bachillerato, carreras técnicas y cursos intensivos diversos que brindan a los alumnos
-            las herramientas necesarias para que estén mejor preparados para continuar con estudios universitarios,
-            encontrar un nuevo empleo, mejorar el que ya tienen, o bien abrir un negocio propio y con esto tener un
-            mejor nivel de vida.</p>
-    </div>
+    <footer>
+        <p>&copy; 2025 Liceo de Artes y Oficios | Dirección: Cerrada, Heroico Colegio Militar, Primero de Mayo, 86100
+            Villahermosa, Tab. | Teléfono: 993 313 9887</p>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
