@@ -19,7 +19,7 @@ body {
 header {
     background-color: #e2adce; /* Azul marino para el encabezado */
     color: #FFFFFF; /* Texto blanco en el encabezado */
-    padding: 1em 0;
+    padding: 15px;
 }
  
 header .logo {
@@ -49,10 +49,12 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    font-size: 15px;
+    font-family: "Times New Roman", serif; /* Fuente Times New Roman con una alternativa serif */
 }
  
 nav ul li a {
-    background-color:#803463; /* Naranja para los botones de navegación */
+    background-color:#803463; /* Rosados para los botones de navegación */
     color: #FFFFFF;
     text-decoration: none;
     padding: 0.8em 1.5em;
@@ -62,7 +64,7 @@ nav ul li a {
 }
  
 nav ul li a:hover {
-    background-color: #803463; /* Un tono de naranja más oscuro al pasar el ratón */
+    background-color: #803463; /* Un tono de rosado más oscuro al pasar el ratón */
 }
  
 /* Estilos del contenido principal */
@@ -81,11 +83,13 @@ section {
 section h2, section h3 {
     color: #000080; /* Azul marino para los títulos de sección */
     margin-top: 0;
-    font-size: 1.6em; /* Ligeramente más grandes que los párrafos */
+    font-size:  40px; /* Ligeramente más grandes que los párrafos */
+    font-family: "Times New Roman", serif; /* Fuente Times New Roman con una alternativa serif */
 }
  
 section p {
-    font-size: 1em; /* Tamaño de fuente para los párrafos */
+    font-size: 20px; /* Tamaño de fuente para los párrafos */
+    font-family: "Times New Roman", serif; /* Fuente Times New Roman con una alternativa serif */
 }
  
 /* Estilos específicos para la sección de inicio */
@@ -95,14 +99,14 @@ section p {
 }
  
 #inicio h2 {
-    font-size: 2em; /* Título principal más grande */
+    font-size: 40px; /* Título principal más grande */
     color: #803463; /* Título principal en naranja */
     margin-bottom: 15px;
-    font-family: Lucida Handwriting;
+    font-family: "Times New Roman", serif; /* Fuente Times New Roman con una alternativa serif */
 }
  
 #inicio p {
-    font-size: 1.1em; /* Párrafos ligeramente más grandes */
+    font-size: 20px; /* Párrafos ligeramente más grandes */
     margin-bottom: 20px;
     text-align: justify;
 }
@@ -114,7 +118,7 @@ section p {
  
 /* Estilos para la sección de noticias */
 #noticias h3 {
-    font-size: 1.4em; /* Título de noticias un poco más grande */
+    font-size: 30px; /* Título de noticias un poco más grande */
     color: #333; /* Color más oscuro para el título de noticias */
     margin-bottom: 10px;
     text-align: center; /* Centra el título de noticias */
@@ -138,6 +142,7 @@ section p {
     color: #007bff; /* Color azul para los enlaces de noticias */
     text-decoration: none;
     transition: color 0.3s ease;
+    font-family: "Times New Roman", serif; /* Fuente Times New Roman con una alternativa serif */
 }
  
 #noticias ul li a:hover {

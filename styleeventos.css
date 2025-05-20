@@ -80,11 +80,11 @@ section {
 section h2, section h3 {
     color: #000080; /* Azul marino para los títulos de sección */
     margin-top: 0;
-    font-size: 1.6em; /* Ligeramente más grandes que los párrafos */
+    font-size:  40px; /* Ligeramente más grandes que los párrafos */
 }
  
 section p {
-    font-size: 1em; /* Tamaño de fuente para los párrafos */
+     font-size: 20px; /* Tamaño de fuente para los párrafos */
 }
  
 /* Estilos específicos para la sección de inicio */
@@ -94,14 +94,14 @@ section p {
 }
  
 #inicio h2 {
-    font-size: 2em; /* Título principal más grande */
+        font-size:  40px; /* Ligeramente más grandes que los párrafos */
     color: #803463; /* Título principal en naranja */
     margin-bottom: 15px;
     font-family: Lucida Handwriting;
 }
  
 #inicio p {
-    font-size: 1.1em; /* Párrafos ligeramente más grandes */
+     font-size: 20px; /* Tamaño de fuente para los párrafos */
     margin-bottom: 20px;
     text-align: justify;
 }
