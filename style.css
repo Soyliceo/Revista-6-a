@@ -1,13 +1,12 @@
 /* Estilos generales */
 body {
     font-family: "Times New Roman", serif; /* Fuente Times New Roman con una alternativa serif */
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: #f4f4f4; /* Un fondo gris claro */
     color: #333; /* Texto en color gris oscuro */
-    line-height: 1.6;
+    /*line-height: 1.6;*/
 }
-
  
 .contenedor {
     max-width: 1200px;
@@ -30,7 +29,8 @@ header .logo {
  
 header .logo img {
     margin-right: 15px;
-    
+    height: 70px;
+    width: 200px;
 }
  
 header .logo h1 {
@@ -179,8 +179,7 @@ footer {
 
 .video-portada {
     position: relative;
-    align-items: center;
-    left: 150px;
+    text-align: center;
 }
 
 /* Estilo de la pantalla de carga */

@@ -1,8 +1,8 @@
 /* Estilos generales */
 body {
     font-family: "Times New Roman", serif; /* Fuente Times New Roman con una alternativa serif */
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: #f4f4f4; /* Un fondo gris claro */
     color: #333; /* Texto en color gris oscuro */
     line-height: 1.6;
@@ -28,8 +28,9 @@ header .logo {
 }
  
 header .logo img {
-    max-height: 50px;
     margin-right: 15px;
+    height: 70px;
+    width: 200px;
 }
  
 header .logo h1 {
